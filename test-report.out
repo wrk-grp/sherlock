@@ -1,0 +1,29 @@
+{"Time":"2022-12-29T23:23:14.882396+01:00","Action":"run","Package":"github.com/wrk-grp/sherlock","Test":"TestNewParser"}
+{"Time":"2022-12-29T23:23:14.882739+01:00","Action":"output","Package":"github.com/wrk-grp/sherlock","Test":"TestNewParser","Output":"=== RUN   TestNewParser\n"}
+{"Time":"2022-12-29T23:23:14.882775+01:00","Action":"output","Package":"github.com/wrk-grp/sherlock","Test":"TestNewParser","Output":"\n"}
+{"Time":"2022-12-29T23:23:14.88328+01:00","Action":"output","Package":"github.com/wrk-grp/sherlock","Test":"TestNewParser","Output":"  Given a new instance \u001b[1;3;m[\u001b[0m\u001b[1;3;m2022-12-29 23:23:14.882833\u001b[0m\u001b[1;3;m]\u001b[0m \u001b[1;;m INFO  \u001b[0m SQL -\u003e SELECT * FROM tests\n"}
+{"Time":"2022-12-29T23:23:14.883516+01:00","Action":"output","Package":"github.com/wrk-grp/sherlock","Test":"TestNewParser","Output":"\n"}
+{"Time":"2022-12-29T23:23:14.88353+01:00","Action":"output","Package":"github.com/wrk-grp/sherlock","Test":"TestNewParser","Output":"    It should be correctly initialized \u001b[32m✔\u001b[0m\n"}
+{"Time":"2022-12-29T23:23:14.883544+01:00","Action":"output","Package":"github.com/wrk-grp/sherlock","Test":"TestNewParser","Output":"\n"}
+{"Time":"2022-12-29T23:23:14.883551+01:00","Action":"output","Package":"github.com/wrk-grp/sherlock","Test":"TestNewParser","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
+{"Time":"2022-12-29T23:23:14.883565+01:00","Action":"output","Package":"github.com/wrk-grp/sherlock","Test":"TestNewParser","Output":"1 total assertion\u001b[0m\n"}
+{"Time":"2022-12-29T23:23:14.883572+01:00","Action":"output","Package":"github.com/wrk-grp/sherlock","Test":"TestNewParser","Output":"\n"}
+{"Time":"2022-12-29T23:23:14.883583+01:00","Action":"output","Package":"github.com/wrk-grp/sherlock","Test":"TestNewParser","Output":"--- PASS: TestNewParser (0.00s)\n"}
+{"Time":"2022-12-29T23:23:14.88359+01:00","Action":"pass","Package":"github.com/wrk-grp/sherlock","Test":"TestNewParser","Elapsed":0}
+{"Time":"2022-12-29T23:23:14.883598+01:00","Action":"run","Package":"github.com/wrk-grp/sherlock","Test":"TestToPrefix"}
+{"Time":"2022-12-29T23:23:14.883604+01:00","Action":"output","Package":"github.com/wrk-grp/sherlock","Test":"TestToPrefix","Output":"=== RUN   TestToPrefix\n"}
+{"Time":"2022-12-29T23:23:14.883614+01:00","Action":"output","Package":"github.com/wrk-grp/sherlock","Test":"TestToPrefix","Output":"\n"}
+{"Time":"2022-12-29T23:23:14.88365+01:00","Action":"output","Package":"github.com/wrk-grp/sherlock","Test":"TestToPrefix","Output":"  Given a new instance \u001b[1;3;m[\u001b[0m\u001b[1;3;m2022-12-29 23:23:14.883632\u001b[0m\u001b[1;3;m]\u001b[0m \u001b[1;;m INFO  \u001b[0m SQL -\u003e SELECT * FROM tests\n"}
+{"Time":"2022-12-29T23:23:14.883683+01:00","Action":"output","Package":"github.com/wrk-grp/sherlock","Test":"TestToPrefix","Output":"\n"}
+{"Time":"2022-12-29T23:23:14.883755+01:00","Action":"output","Package":"github.com/wrk-grp/sherlock","Test":"TestToPrefix","Output":"    It should walk the subtree \u001b[1;3;m[\u001b[0m\u001b[1;3;m2022-12-29 23:23:14.883680\u001b[0m\u001b[1;3;m]\u001b[0m \u001b[1;;m INFO  \u001b[0m mapping table name to prefix: ./tests\n"}
+{"Time":"2022-12-29T23:23:14.883779+01:00","Action":"output","Package":"github.com/wrk-grp/sherlock","Test":"TestToPrefix","Output":"\n"}
+{"Time":"2022-12-29T23:23:14.883785+01:00","Action":"output","Package":"github.com/wrk-grp/sherlock","Test":"TestToPrefix","Output":"\n"}
+{"Time":"2022-12-29T23:23:14.883791+01:00","Action":"output","Package":"github.com/wrk-grp/sherlock","Test":"TestToPrefix","Output":"\u001b[31m\u001b[0m\u001b[33m\u001b[0m\u001b[32m\n"}
+{"Time":"2022-12-29T23:23:14.883797+01:00","Action":"output","Package":"github.com/wrk-grp/sherlock","Test":"TestToPrefix","Output":"1 total assertion\u001b[0m\n"}
+{"Time":"2022-12-29T23:23:14.883802+01:00","Action":"output","Package":"github.com/wrk-grp/sherlock","Test":"TestToPrefix","Output":"\n"}
+{"Time":"2022-12-29T23:23:14.88381+01:00","Action":"output","Package":"github.com/wrk-grp/sherlock","Test":"TestToPrefix","Output":"--- PASS: TestToPrefix (0.00s)\n"}
+{"Time":"2022-12-29T23:23:14.883839+01:00","Action":"pass","Package":"github.com/wrk-grp/sherlock","Test":"TestToPrefix","Elapsed":0}
+{"Time":"2022-12-29T23:23:14.883844+01:00","Action":"output","Package":"github.com/wrk-grp/sherlock","Output":"PASS\n"}
+{"Time":"2022-12-29T23:23:14.883965+01:00","Action":"output","Package":"github.com/wrk-grp/sherlock","Output":"coverage: 89.5% of statements\n"}
+{"Time":"2022-12-29T23:23:14.884592+01:00","Action":"output","Package":"github.com/wrk-grp/sherlock","Output":"ok  \tgithub.com/wrk-grp/sherlock\t0.300s\n"}
+{"Time":"2022-12-29T23:23:14.884606+01:00","Action":"pass","Package":"github.com/wrk-grp/sherlock","Elapsed":0.3}
