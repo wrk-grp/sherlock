@@ -9,10 +9,15 @@ import (
 	"github.com/theapemachine/wrkspc/spd"
 )
 
+const (
+	GIVENANINSTANCE = "Given an instance"
+	SIMPLEQUERY     = "SELECT * FROM tests"
+)
+
 func TestNewParser(t *testing.T) {
-	Convey("Given a new instance", t, func() {
+	Convey(GIVENANINSTANCE, t, func() {
 		dg := spd.New(spd.APPTXT, spd.QUESTION, spd.DATALAKE)
-		buf := bytes.NewBufferString("SELECT * FROM tests")
+		buf := bytes.NewBufferString(SIMPLEQUERY)
 		io.Copy(dg, buf)
 
 		parser := NewParser(dg)
@@ -24,9 +29,9 @@ func TestNewParser(t *testing.T) {
 }
 
 func TestToPrefix(t *testing.T) {
-	Convey("Given a new instance", t, func() {
+	Convey(GIVENANINSTANCE, t, func() {
 		dg := spd.New(spd.APPTXT, spd.QUESTION, spd.DATALAKE)
-		buf := bytes.NewBufferString("SELECT * FROM tests")
+		buf := bytes.NewBufferString(SIMPLEQUERY)
 		io.Copy(dg, buf)
 
 		parser := NewParser(dg)
@@ -40,7 +45,7 @@ func TestToPrefix(t *testing.T) {
 func BenchmarkNewParser(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		dg := spd.New(spd.APPTXT, spd.QUESTION, spd.DATALAKE)
-		buf := bytes.NewBufferString("SELECT * FROM tests")
+		buf := bytes.NewBufferString(SIMPLEQUERY)
 		io.Copy(dg, buf)
 
 		_ = NewParser(dg)
